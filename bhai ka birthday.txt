@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Sri Charan!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff6e6;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ffb347;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: white;
+    }
+
+    .quote {
+      font-style: italic;
+      margin-top: 10px;
+      color: #fff;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .footer {
+      background-color: #ffda88;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .footer p {
+      margin: 0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy Birthday Sri Charan!</h1>
+    <p class="quote">"There is a world outside of Blox Fruits, son."</p>
+  </header>
+
+  <section class="gallery">
+    <img src="1.jpg" alt="Sri Charan 1">
+    <img src="2.jpg" alt="Sri Charan 2">
+    <img src="3.jpg" alt="Sri Charan 3">
+    <img src="4.jpg" alt="Sri Charan 4">
+  </section>
+
+  <div class="footer">
+    <p>Made with ❤️ by the boys</p>
+  </div>
+</body>
+</html>
